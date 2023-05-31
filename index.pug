@@ -1,0 +1,30 @@
+html
+    head
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js") 
+        link(rel="stylesheet", href="style/style.css")
+    body 
+        .buylist 
+            h1.header My Buylist 購物清單
+            .content 
+                .buyitem
+                    label 產品名
+                    input.input_name
+                    label 價錢
+                    input.input_price
+                    .addbtn 新增
+                //- .itemlist
+                //-     li.item 1.吹風機
+                //-         .price 100
+                //-         .del_btn X
+                //- .itemlist
+                //-     li.item 2.吹風機
+                //-         .price 100
+                //-         .del_btn X
+                //- .itemlist
+                //-     li.item 3.吹風機
+                //-         .price 100
+                //-         .del_btn X
+                .itemlist
+                    .sum_of_price 總價:
+                        .sum 0$
+        script(src="./script/script.js",) 
